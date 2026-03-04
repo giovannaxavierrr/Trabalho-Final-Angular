@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
+
+.header {
+    padding: 5px;
+    font-family: 'Monsieur La Doulaise', cursive;
+    font-weight: 200;
+    font-size: 20px;
+    color: #7c4e39;
+    text-align: center;
+    
+}
+
+.aviso {
+    color: red;
+    font-weight: bold;
+}
+
+body {
+    background-color: #d8b0ab;
+}

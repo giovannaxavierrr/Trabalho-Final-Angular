@@ -1,0 +1,23 @@
+<app-cabecalho></app-cabecalho>
+
+<div class="header">
+    <h1> {{ usuario.name }} </h1>
+</div>
+
+@if (carregando) {
+    <div>Carregando...</div>
+}
+
+@if (idInvalido || erro) {
+    <!-- <div>ID inválido, utilize apenas números</div> -->
+    <span class="aviso">ID inválido ou inexistente</span>
+} @else {
+    <div>
+        <p><strong>Nome:</strong> {{ usuario.name }} </p>
+        <p><strong>Email:</strong> {{ usuario.email }} </p>
+        <p><strong>Telefone:</strong> {{ usuario.phone }} </p>
+        <p><strong>Website:</strong> {{ usuario.website }} </p>
+        <p><strong>Cidade:</strong> {{ usuario.address.city }} </p>
+        <p><strong>Empresa:</strong> {{ usuario.company.name }} </p>
+    </div>
+}
