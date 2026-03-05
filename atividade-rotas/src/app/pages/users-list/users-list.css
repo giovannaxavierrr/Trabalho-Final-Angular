@@ -1,0 +1,38 @@
+.titulo {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #8e5d59;
+    font-family: "Corben", serif;
+}
+
+.infos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    font-family: "Markazi Text", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+}
+
+.infos h5 {
+    color: #7b7a76;
+    margin: 0;
+}
+
+.infos h5 :hover {
+    cursor: none;
+}
+
+.infos button {
+    color: #7b7a76;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: "Markazi Text", serif;
+    font-weight: 400;
+    font-size: 20px;
+}

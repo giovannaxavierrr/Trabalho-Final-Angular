@@ -1,0 +1,41 @@
+.header {
+    padding: 5px;
+    font-family: 'Monsieur La Doulaise', cursive;
+    font-weight: 200;
+    font-size: 20px;
+    color: #7c4e39;
+    text-align: center;
+    
+}
+
+.infos {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.aviso {
+    color: #9e2761;
+    font-family: "Markazi Text", serif;
+    font-weight: 400;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btnInicial {
+    background: none;
+    border-radius: 8px;
+    border-color: #9e2761;
+    padding: 10px;
+    font-family: "Markazi Text", serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #9e2761;
+    cursor: pointer;
+}
+
+body {
+    background-color: #d8b0ab;
+}

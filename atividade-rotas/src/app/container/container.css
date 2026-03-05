@@ -1,0 +1,14 @@
+.container {
+    border-radius: 16px;
+    border: none;
+    background-color: #e2c0ba;
+    box-shadow: 0px 8px 16px 0px #7c4e39;
+    width: 684px;
+    max-width: 90%;
+    margin: 80px auto;
+    padding: 56px 80px;
+    margin-top: 80px;
+    box-sizing: border-box;
+    font-weight: 200;
+    font-style: normal;
+}
